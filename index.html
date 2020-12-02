@@ -5,6 +5,10 @@
 	<title></title>
 </head>
 <body>
+<h1>Comandos de reorganización adicionales</h1>
+<ul><li>git rebase -- d significa que durante la reorganización la confirmación se descartará del bloque de confirmación combinado final.</li></ul>
+<ul><li>git rebase -- p deja la confirmación como está. No modificará el mensaje ni el contenido de la confirmación y seguirá siendo una confirmación individual en el historial de ramas.</li></ul>
+<ul><li>git rebase -- x durante la reorganización ejecuta un guion de shell de línea de comandos en cada confirmación marcada. Un ejemplo útil sería ejecutar el conjunto de pruebas de tu código base en confirmaciones específicas, lo que podría ayudar a identificar regresiones durante una reorganización.</li></ul>
 
 </body>
 </html>
